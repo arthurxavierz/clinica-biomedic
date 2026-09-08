@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clínica Bio Medic | Estética Avançada e Saúde Integrativa em Uberaba</title>
+<meta name="description" content="Clínica Bio Medic em Uberaba MG. Estética avançada, saúde integrativa e suplementação com a Dra. Marquenia Cintra. Toxina botulínica, meso facial e capilar, fios de PDO, laser e emagrecimento com acompanhamento médico.">
+<meta name="theme-color" content="#4a2168">
+<meta property="og:title" content="Clínica Bio Medic | Estética Avançada em Uberaba">
+<meta property="og:description" content="Estética avançada, saúde integrativa e suplementação com a Dra. Marquenia Cintra, em Uberaba MG.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/hero-facial.jpg">
+<meta property="og:locale" content="pt_BR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+<script>document.documentElement.className+=" js";</script>
+<link rel="stylesheet" href="styles.css?v=5">
+<link rel="icon" type="image/svg+xml" href="favicon.svg?v=1">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#inicio" class="brand" aria-label="Clínica Bio Medic, início">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 120 130" role="img">
+          <defs>
+            <linearGradient id="petalA" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#9a5cc0"/>
+              <stop offset="1" stop-color="#5a2b82"/>
+            </linearGradient>
+            <linearGradient id="petalB" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#b98fd9"/>
+              <stop offset="1" stop-color="#7a3e9d"/>
+            </linearGradient>
+          </defs>
+          <!-- central flame / bud -->
+          <path d="M60 8 C50 26 50 42 60 56 C70 42 70 26 60 8 Z" fill="url(#petalA)"/>
+          <ellipse cx="60" cy="34" rx="6" ry="14" fill="#efe3f6"/>
+          <!-- side petals -->
+          <path d="M60 60 C38 40 20 40 14 54 C30 60 44 62 60 60 Z" fill="url(#petalB)"/>
+          <path d="M60 60 C82 40 100 40 106 54 C90 60 76 62 60 60 Z" fill="url(#petalB)"/>
+          <path d="M60 62 C46 52 30 52 22 62 C36 66 50 66 60 62 Z" fill="url(#petalA)" opacity=".85"/>
+          <path d="M60 62 C74 52 90 52 98 62 C84 66 70 66 60 62 Z" fill="url(#petalA)" opacity=".85"/>
+          <!-- flourish -->
+          <path d="M16 74 C40 88 80 88 104 74" fill="none" stroke="#7a3e9d" stroke-width="3" stroke-linecap="round"/>
+          <path d="M28 82 C44 92 76 92 92 82" fill="none" stroke="#b98fd9" stroke-width="2.4" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand__word">
+        <span class="brand__name">Clínica Bio Medic</span>
+        <span class="brand__tag">Estética e Saúde Integrativa</span>
+      </span>
+    </a>
+
+    <nav class="nav__links" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#areas">Áreas</a>
+      <a href="#tratamentos">Tratamentos</a>
+      <a href="#localizacao">Localização</a>
+    </nav>
+
+    <a class="btn btn--nav" href="#agendar">Agendar consulta</a>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="nav__mobile" id="navMobile">
+    <a href="#sobre">Sobre</a>
+    <a href="#areas">Áreas de atuação</a>
+    <a href="#tratamentos">Tratamentos</a>
+    <a href="#localizacao">Localização</a>
+    <a class="btn btn--primary" href="#agendar">Agendar consulta</a>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="inicio">
+  <div class="hero__grid">
+    <div class="hero__content js-stagger">
+      <span class="eyebrow reveal">Uberaba, Minas Gerais</span>
+      <h1 class="hero__title reveal reveal--blur">Cuidar da sua pele é também cuidar da sua <em>autoestima</em>.</h1>
+      <p class="hero__lead reveal">Estética avançada, saúde integrativa e suplementação em um só lugar, com avaliação individualizada e acompanhamento próximo da Dra. Marquenia Cintra.</p>
+      <div class="hero__actions reveal">
+        <a class="btn btn--primary" href="#agendar">Agendar minha avaliação</a>
+        <a class="btn btn--ghost" href="#tratamentos">Ver tratamentos</a>
+      </div>
+      <ul class="hero__pills reveal">
+        <li>Biomédica esteta</li>
+        <li>Graduanda em Medicina</li>
+        <li>Protocolos personalizados</li>
+      </ul>
+    </div>
+
+    <div class="hero__media reveal reveal--right">
+      <div class="hero__frame">
+        <img src="img/hero-facial.jpg" alt="Mulher recebendo tratamento facial em ambiente de clínica de estética" width="1500" height="1000" fetchpriority="high">
+      </div>
+      <div class="hero__badge">
+        <span class="hero__badge-num">+4 mil</span>
+        <span class="hero__badge-txt">pessoas acompanham a clínica</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAIXA DE VALORES ================= -->
+<section class="strip" aria-label="Pilares da clínica">
+  <div class="strip__inner">
+    <div class="strip__item"><span>01</span><p>Estética avançada facial, corporal e capilar</p></div>
+    <div class="strip__item"><span>02</span><p>Saúde integrativa com olhar para a causa</p></div>
+    <div class="strip__item"><span>03</span><p>Suplementação e reposição de nutrientes</p></div>
+  </div>
+</section>
+
+<!-- ================= SOBRE ================= -->
+<section class="sobre" id="sobre">
+  <div class="sobre__grid">
+    <div class="sobre__media reveal reveal--left">
+      <img src="img/facial-tratamento.jpg" alt="Profissional realizando procedimento estético facial em paciente" width="1100" height="733" loading="lazy">
+      <div class="sobre__stamp">
+        <span class="script">Clínica Bio Medic</span>
+      </div>
+    </div>
+    <div class="sobre__text reveal reveal--right">
+      <span class="eyebrow">Sobre a clínica</span>
+      <h2 class="section-title">Beleza que nasce do equilíbrio entre estética e saúde.</h2>
+      <p>A Clínica Bio Medic é comandada pela <strong>Dra. Marquenia Cintra</strong>, biomédica esteta e graduanda em Medicina. A proposta une procedimentos estéticos de resultado a uma visão integrativa da saúde, para que o cuidado com a aparência caminhe junto com o bem-estar de dentro para fora.</p>
+      <p>Cada atendimento começa por uma avaliação individual. A partir dela é montado um protocolo que respeita o seu tempo, a sua rotina e os seus objetivos, sempre com acompanhamento de perto e informação clara sobre cada etapa.</p>
+      <div class="sobre__creds">
+        <div><span class="num">Bio</span><span class="lbl">Biomédica esteta</span></div>
+        <div><span class="num">Med</span><span class="lbl">Graduanda em Medicina</span></div>
+        <div><span class="num">1x1</span><span class="lbl">Avaliação individual</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ÁREAS DE ATUAÇÃO ================= -->
+<section class="areas" id="areas">
+  <div class="areas__head reveal">
+    <span class="eyebrow">Áreas de atuação</span>
+    <h2 class="section-title">Quatro frentes de cuidado, um só objetivo: você se sentir bem.</h2>
+  </div>
+
+  <div class="areas__grid js-stagger">
+    <article class="area area--lg reveal" style="--img:url('img/hero-facial.jpg')">
+      <div class="area__body">
+        <h3>Estética facial</h3>
+        <p>Harmonização, rejuvenescimento e viço para a pele com protocolos individualizados.</p>
+        <ul class="tags">
+          <li>Toxina botulínica</li>
+          <li>Meso facial</li>
+          <li>Fios de PDO</li>
+          <li>Laser CO2</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="area reveal" style="--img:url('img/corporal.jpg')">
+      <div class="area__body">
+        <h3>Corporal e bem-estar</h3>
+        <p>Cuidado corporal para melhorar contorno, circulação e disposição.</p>
+        <ul class="tags">
+          <li>Carboxiterapia</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="area reveal" style="--img:url('img/capilar.jpg')">
+      <div class="area__body">
+        <h3>Saúde capilar</h3>
+        <p>Estímulo e nutrição do couro cabeludo para fios mais fortes.</p>
+        <ul class="tags">
+          <li>Meso capilar</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="area area--lg reveal" style="--img:url('img/saude.jpg')">
+      <div class="area__body">
+        <h3>Saúde integrativa e emagrecimento</h3>
+        <p>Acompanhamento para emagrecimento, reposição de nutrientes e mais energia no dia a dia.</p>
+        <ul class="tags">
+          <li>Emagrecimento com tirzepatida</li>
+          <li>Soroterapia injetável</li>
+          <li>Suplementação</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= TRATAMENTOS EM DESTAQUE ================= -->
+<section class="menu" id="tratamentos">
+  <div class="menu__head reveal">
+    <span class="eyebrow">Tratamentos em destaque</span>
+    <h2 class="section-title">Alguns dos protocolos mais procurados.</h2>
+    <p class="menu__note">Valores de referência. O protocolo final é definido na avaliação, de acordo com o seu caso.</p>
+  </div>
+
+  <div class="menu__list js-stagger">
+    <article class="treat reveal">
+      <div class="treat__top">
+        <h3>Toxina botulínica</h3>
+        <span class="treat__price">R$ 950 <small>à vista</small></span>
+      </div>
+      <p>Suaviza linhas de expressão e devolve frescor ao rosto de forma natural.</p>
+      <span class="treat__pay">12x de R$ 91,67</span>
+    </article>
+
+    <article class="treat reveal">
+      <div class="treat__top">
+        <h3>Fios de PDO lisos</h3>
+        <span class="treat__price">R$ 180 <small>cada fio</small></span>
+      </div>
+      <p>Estímulo de colágeno e sustentação para uma pele mais firme.</p>
+      <span class="treat__pay">Quantidade definida na avaliação</span>
+    </article>
+
+    <article class="treat reveal">
+      <div class="treat__top">
+        <h3>Meso capilar</h3>
+        <span class="treat__price">R$ 250 <small>à vista</small></span>
+      </div>
+      <p>Nutrição profunda do couro cabeludo para fortalecer os fios.</p>
+      <span class="treat__pay">ou 3x de R$ 90</span>
+    </article>
+
+    <article class="treat reveal">
+      <div class="treat__top">
+        <h3>Meso facial</h3>
+        <span class="treat__price">Sob avaliação</span>
+      </div>
+      <p>Reposição de colágeno e vitaminas para viço e hidratação da pele.</p>
+      <span class="treat__pay">Protocolo personalizado</span>
+    </article>
+
+    <article class="treat reveal">
+      <div class="treat__top">
+        <h3>Emagrecimento com tirzepatida</h3>
+        <span class="treat__price">6x R$ 291,67</span>
+      </div>
+      <p>Acompanhamento com consulta médica e suplementação adequada.</p>
+      <span class="treat__pay">Inclui 1 consulta médica</span>
+    </article>
+
+    <article class="treat reveal">
+      <div class="treat__top">
+        <h3>Soroterapia injetável</h3>
+        <span class="treat__price">Sob avaliação</span>
+      </div>
+      <p>Reposição de vitaminas e minerais para mais energia e imunidade.</p>
+      <span class="treat__pay">Protocolo personalizado</span>
+    </article>
+  </div>
+
+  <div class="menu__cta reveal">
+    <p>Ficou com dúvida sobre qual tratamento combina com você?</p>
+    <a class="btn btn--primary" href="https://wa.me/message/JO4KIZ4M4CQHM1" target="_blank" rel="noopener">Falar com a clínica</a>
+  </div>
+</section>
+
+<!-- ================= DIFERENCIAIS ================= -->
+<section class="diff" aria-label="Diferenciais">
+  <div class="diff__head reveal">
+    <h2 class="section-title">Por que escolher a Bio Medic.</h2>
+  </div>
+  <div class="diff__grid js-stagger">
+    <div class="diff__item reveal">
+      <svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24Zm45.66 85.66-56 56a8 8 0 0 1-11.32 0l-24-24a8 8 0 0 1 11.32-11.32L112 148.69l50.34-50.35a8 8 0 0 1 11.32 11.32Z"/></svg>
+      <h3>Avaliação individual</h3>
+      <p>Nada de protocolo de prateleira. Cada plano parte do seu objetivo e da sua saúde.</p>
+    </div>
+    <div class="diff__item reveal">
+      <svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M240 128a48 48 0 0 1-88.06 26.49A64 64 0 1 1 152 101.5 48 48 0 0 1 240 128ZM128 72a40 40 0 1 0-40 40 40 40 0 0 0 40-40Z"/></svg>
+      <h3>Visão integrativa</h3>
+      <p>Estética e saúde caminhando juntas, olhando para a causa e não só para o sintoma.</p>
+    </div>
+    <div class="diff__item reveal">
+      <svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24Zm8 104a8 8 0 0 1-2.34 5.66l-32 32a8 8 0 0 1-11.32-11.32L120 124.69V72a8 8 0 0 1 16 0Z"/></svg>
+      <h3>Acompanhamento próximo</h3>
+      <p>Você não fica sozinha no processo. Cada etapa é orientada com clareza.</p>
+    </div>
+    <div class="diff__item reveal">
+      <svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="m223.68 66.15-88-48.15a15.88 15.88 0 0 0-15.36 0l-88 48.17A16 16 0 0 0 24 80.19v95.62a16 16 0 0 0 8.32 14l88 48.17a15.88 15.88 0 0 0 15.36 0l88-48.17a16 16 0 0 0 8.32-14V80.19a16 16 0 0 0-8.32-14.04ZM128 32l80.34 44-29.77 16.3-80.35-44Zm0 88L47.66 76l33.9-18.55 80.34 44Zm88 55.85-80 43.79v-84l32-17.51V152a8 8 0 0 0 16 0v-53.61l32-17.51Z"/></svg>
+      <h3>Segurança e informação</h3>
+      <p>Procedimentos conduzidos com responsabilidade e informação clara em cada decisão.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= AGENDAR / FORMULÁRIO ================= -->
+<section class="agendar" id="agendar" style="--bg:url('img/lavanda.jpg')">
+  <div class="agendar__inner">
+    <div class="agendar__intro js-stagger">
+      <span class="eyebrow eyebrow--light reveal">Agende sua avaliação</span>
+      <h2 class="reveal reveal--blur">Sugira o melhor horário para você.</h2>
+      <p class="reveal">Deixe seus dados e o período em que prefere ser atendida. O WhatsApp abre com a mensagem já preenchida e a equipe confirma a sua consulta.</p>
+      <ul class="agendar__perks reveal">
+        <li>
+          <svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24Zm45.66 85.66-56 56a8 8 0 0 1-11.32 0l-24-24a8 8 0 0 1 11.32-11.32L112 148.69l50.34-50.35a8 8 0 0 1 11.32 11.32Z"/></svg>
+          Resposta rápida pelo WhatsApp
+        </li>
+        <li>
+          <svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24Zm45.66 85.66-56 56a8 8 0 0 1-11.32 0l-24-24a8 8 0 0 1 11.32-11.32L112 148.69l50.34-50.35a8 8 0 0 1 11.32 11.32Z"/></svg>
+          Avaliação sem compromisso
+        </li>
+        <li>
+          <svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24Zm45.66 85.66-56 56a8 8 0 0 1-11.32 0l-24-24a8 8 0 0 1 11.32-11.32L112 148.69l50.34-50.35a8 8 0 0 1 11.32 11.32Z"/></svg>
+          Atendimento humano e próximo
+        </li>
+      </ul>
+    </div>
+
+    <form class="agendar__form reveal reveal--right" id="agendarForm" novalidate>
+      <div class="field">
+        <label for="f-nome">Nome completo</label>
+        <input id="f-nome" name="nome" type="text" autocomplete="name" placeholder="Como podemos te chamar">
+        <span class="field__err" data-err></span>
+      </div>
+
+      <div class="field">
+        <label for="f-email">E-mail</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" placeholder="seu@email.com">
+        <span class="field__err" data-err></span>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="f-celular">Celular / WhatsApp</label>
+          <input id="f-celular" name="celular" type="tel" inputmode="tel" autocomplete="tel" placeholder="(34) 90000-0000">
+          <span class="field__err" data-err></span>
+        </div>
+        <div class="field">
+          <label for="f-telefone">Telefone <small>(opcional)</small></label>
+          <input id="f-telefone" name="telefone" type="tel" inputmode="tel" placeholder="(34) 3000-0000">
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="f-dia">Dia de preferência</label>
+          <select id="f-dia" name="dia">
+            <option value="" disabled selected>Selecione</option>
+            <option>Segunda a sexta</option>
+            <option>Sábado</option>
+            <option>Qualquer dia</option>
+          </select>
+          <span class="field__err" data-err></span>
+        </div>
+        <div class="field">
+          <label for="f-periodo">Melhor período</label>
+          <select id="f-periodo" name="periodo">
+            <option value="" disabled selected>Selecione</option>
+            <option>Manhã, 08h às 12h</option>
+            <option>Tarde, 12h às 18h</option>
+            <option>Noite, após 18h</option>
+          </select>
+          <span class="field__err" data-err></span>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn--primary agendar__submit">
+        <svg viewBox="0 0 32 32" aria-hidden="true" class="agendar__wa"><path fill="currentColor" d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.4.7 4.6 1.8 6.5L3 29l7-1.8c1.8 1 3.9 1.6 6 1.6 7 0 12.7-5.7 12.7-12.7S23 3 16 3Zm0 23.1c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4a10.3 10.3 0 0 1-1.6-5.5C5.4 9.9 10.1 5.3 16 5.3S26.6 9.9 26.6 15.7 21.9 26.1 16 26.1Zm5.8-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.6 8.6 0 0 1-2.6-1.6 9.5 9.5 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.4-.6s0-.4 0-.6-.7-1.7-1-2.3-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 8.9 12a6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c.8.3 1.4.5 1.9.7a4.5 4.5 0 0 0 2 .1c.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.3Z"/></svg>
+        Enviar pelo WhatsApp
+      </button>
+      <p class="agendar__note">Ao enviar, o WhatsApp abre com a sua mensagem pronta. Seus dados não ficam salvos neste site.</p>
+      <p class="agendar__ok" id="agendarOk" role="status" hidden>Tudo certo. Abrindo o WhatsApp com a sua mensagem.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ================= LOCALIZAÇÃO / CONTATO ================= -->
+<section class="local" id="localizacao">
+  <div class="local__grid">
+    <div class="local__info reveal reveal--left">
+      <span class="eyebrow">Localização e contato</span>
+      <h2 class="section-title">Estamos em Uberaba, Minas Gerais.</h2>
+      <p class="local__lead">Atendimento com hora marcada. Fale com a clínica para agendar sua avaliação ou tirar dúvidas sobre os tratamentos.</p>
+
+      <ul class="local__list">
+        <li>
+          <span class="local__ico">
+            <svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M128 16a88.1 88.1 0 0 0-88 88c0 75.3 80 132.17 83.41 134.55a8 8 0 0 0 9.18 0C136 236.17 216 179.3 216 104a88.1 88.1 0 0 0-88-88Zm0 56a32 32 0 1 1-32 32 32 32 0 0 1 32-32Z"/></svg>
+          </span>
+          <div><strong>Uberaba, MG</strong><span>Atendimento com hora marcada</span></div>
+        </li>
+        <li>
+          <span class="local__ico">
+            <svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M231.88 175.08A56.26 56.26 0 0 1 176 224C96.6 224 32 159.4 32 80a56.26 56.26 0 0 1 48.92-55.88 16 16 0 0 1 16.62 9.52l21.12 47.15a16 16 0 0 1-1.32 15.06l-10.63 15.5a1.94 1.94 0 0 0-.09 2c6.71 13.74 20.62 27.53 34.42 34.19a1.94 1.94 0 0 0 2-.11l15.24-10.64a16 16 0 0 1 15.13-1.4l47.15 21.12a16 16 0 0 1 9.51 16.61Z"/></svg>
+          </span>
+          <div><strong>(34) 99658-8629</strong><span>WhatsApp e telefone</span></div>
+        </li>
+        <li>
+          <span class="local__ico">
+            <svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M128 80a48 48 0 1 0 48 48 48.05 48.05 0 0 0-48-48Zm0 80a32 32 0 1 1 32-32 32 32 0 0 1-32 32Zm48-136H80a56.06 56.06 0 0 0-56 56v96a56.06 56.06 0 0 0 56 56h96a56.06 56.06 0 0 0 56-56V80a56.06 56.06 0 0 0-56-56Zm16 40a12 12 0 1 1 12-12 12 12 0 0 1-12 12Z"/></svg>
+          </span>
+          <div><strong>@clinicabiomedic_ura</strong><span>Acompanhe no Instagram</span></div>
+        </li>
+      </ul>
+
+      <div class="local__actions">
+        <a class="btn btn--primary" href="https://wa.me/message/JO4KIZ4M4CQHM1" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        <a class="btn btn--ghost" href="https://instagram.com/clinicabiomedic_ura" target="_blank" rel="noopener">Ver o Instagram</a>
+      </div>
+    </div>
+
+    <div class="local__map reveal reveal--right">
+      <iframe
+        title="Mapa de Uberaba, Minas Gerais"
+        src="https://www.google.com/maps?q=Uberaba,+Minas+Gerais&output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="foot">
+  <div class="foot__inner">
+    <div class="foot__brand">
+      <span class="script foot__script">Clínica Bio Medic</span>
+      <p>Estética avançada, saúde integrativa e suplementação em Uberaba, Minas Gerais.</p>
+    </div>
+    <nav class="foot__nav" aria-label="Rodapé">
+      <a href="#sobre">Sobre</a>
+      <a href="#areas">Áreas de atuação</a>
+      <a href="#tratamentos">Tratamentos</a>
+      <a href="#localizacao">Localização</a>
+    </nav>
+    <div class="foot__contact">
+      <a href="https://wa.me/message/JO4KIZ4M4CQHM1" target="_blank" rel="noopener">(34) 99658-8629</a>
+      <a href="https://instagram.com/clinicabiomedic_ura" target="_blank" rel="noopener">@clinicabiomedic_ura</a>
+      <span>Uberaba, MG</span>
+    </div>
+  </div>
+  <div class="foot__base">
+    <span>Clínica Bio Medic. Todos os direitos reservados.</span>
+    <span>Dra. Marquenia Cintra, biomédica esteta.</span>
+  </div>
+</footer>
+
+<!-- ================= WHATSAPP FLUTUANTE ================= -->
+<a class="wa" href="https://wa.me/message/JO4KIZ4M4CQHM1" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.4.7 4.6 1.8 6.5L3 29l7-1.8c1.8 1 3.9 1.6 6 1.6 7 0 12.7-5.7 12.7-12.7S23 3 16 3Zm0 23.1c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4a10.3 10.3 0 0 1-1.6-5.5C5.4 9.9 10.1 5.3 16 5.3S26.6 9.9 26.6 15.7 21.9 26.1 16 26.1Zm5.8-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.6 8.6 0 0 1-2.6-1.6 9.5 9.5 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.4-.6s0-.4 0-.6-.7-1.7-1-2.3-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 8.9 12a6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c.8.3 1.4.5 1.9.7a4.5 4.5 0 0 0 2 .1c.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.3Z"/></svg>
+</a>
+
+<script src="script.js?v=2" defer></script>
+</body>
+</html>
